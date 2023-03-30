@@ -1,0 +1,32 @@
+.form {
+  display: flex;
+  justify-content: center;
+  width: 400px;
+}
+
+@media (max-width: 480px) {
+  .form {
+    width: 85vw;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.form input {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: none;
+  border: 2px solid #fff;
+  text-transform: capitalize;
+  outline: none;
+  width: 80%;
+}
+
+.form button {
+  padding: 9px 20px;
+  font-size: 15px;
+  border: 2px solid #fff;
+  border-left: none;
+  outline: none;
+  border-radius: 0;
+}
